@@ -1,0 +1,33 @@
+{
+  "name": "dsc.events",
+  "version": "2.0.0",
+  "description": "A quick and simple way to divide your event listeners into different files",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "scripts": {
+    "tsc": "tsc",
+    "typedoc": "typedoc --theme minimal --out docs src/",
+    "pretty": "prettier --config .prettierrc \"./src/**/*.ts\"  \"./lib/**/*.js\" --write",
+    "build": "npm run tsc && npm run pretty && npm run typedoc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jurgenjacobsen/dsc.events.git"
+  },
+  "keywords": [
+    "events",
+    "handler",
+    "discord",
+    "bot"
+  ],
+  "author": "jurgenjacobsen",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/jurgenjacobsen/dsc.events/issues"
+  },
+  "homepage": "https://github.com/jurgenjacobsen/dsc.events#readme",
+  "engines": {
+    "node": ">=16.6.0",
+    "npm": ">=7.0.0"
+  }
+}
