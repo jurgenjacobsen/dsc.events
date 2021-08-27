@@ -1,6 +1,6 @@
 # [dsc.events](https://www.npmjs.com/dsc.events)
 
-A quick way to implement economy features to your discord bot.
+A quick and simple way to divide your event listeners into different files.
 
 <div style="display: inline-block"><br>
   <img alt="npm" src="https://img.shields.io/npm/v/dsc.events?style=flat-square">
